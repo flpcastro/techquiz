@@ -37,7 +37,7 @@ export function Home() {
       <Header
         icon={Trophy}
         title="Vamos estudar"
-        subtitle="Treine seus conhecimento"
+        subtitle="Treine seus conhecimentos"
         onPress={() => navigate('history')}
       />
 
