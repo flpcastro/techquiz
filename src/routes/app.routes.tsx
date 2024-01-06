@@ -11,7 +11,7 @@ export function AppRoutes() {
   return (
     <Navigator
       screenOptions={{
-        headerShown: false
+        headerShown: false,
       }}
     >
       <Screen
@@ -21,6 +21,7 @@ export function AppRoutes() {
       <Screen
         name="quiz"
         component={Quiz}
+        options={{ gestureEnabled: false }}
       />
       <Screen
         name="history"
@@ -29,6 +30,7 @@ export function AppRoutes() {
       <Screen
         name="finish"
         component={Finish}
+        options={{ gestureEnabled: false }}
       />
     </Navigator>
   )
